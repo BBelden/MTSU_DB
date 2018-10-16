@@ -1,0 +1,118 @@
+1. Print part numbers and names for all parts.
+p1	Nut
+p2	Bolt
+p3	Screw
+p4	Screw
+p5	Cam
+p6	Cog
+
+2. Print part numbers for parts that either blue or red in color.
+p1
+p4
+p5
+p6
+
+3. Print all shipment information where the quantity is in the range 300 to 750 inclusive.
+s1	p1	300	0.005
+s1	p3	400	0.004
+s2	p1	300	0.006
+s2	p2	400	0.004
+s4	p4	300	0.006
+s4	p5	400	0.003
+
+4. Print supplier names for suppliers who ship P2 or P4.
+Smith
+Jones
+Blake
+Clark
+
+5. Print supplier numbers for suppliers who ship at least all those parts shipped by supplier S3.  Do not include S3 in the answer and do not "count".
+s1
+s2
+s4
+
+6. Print supplier numbers for suppliers who ship at least one type of red part.
+s1
+s2
+s4
+
+7. Print supplier numbers for suppliers who do not ship any red parts.
+s3
+s5
+
+8. Print supplier numbers for suppliers who ship ONLY red parts.
+NULL
+
+9. Print supplier names for suppliers who do not currently ship any parts.
+Adams
+
+10. Print supplier names for suppliers who ship at least one part that is also shipped by supplier S2.  Do not include S2 in the answer.
+Smith
+Blake
+Clark
+
+11. Print the supplier information by cities in alphabetic order.
+s1	Smith	20	London
+s4	Clark	20	London
+s5	Adams	30	NULL
+s2	Jones	10	Paris
+s3	Blake	30	Paris
+
+12. Print the shipment information by price in descending numeric order.
+s1	p5	100	0.010
+s1	p6	100	0.010
+s1	p2	200	0.009
+s1	p4	200	0.009
+s3	p2	200	0.009
+s4	p2	200	0.008
+s4	p4	300	0.006
+s2	p1	300	0.006
+s1	p1	300	0.005
+s2	p2	400	0.004
+s1	p3	400	0.004
+s4	p5	400	0.003
+s3	p3	200	NULL
+s4	p3	NULL	NULL	
+
+13. Print supplier numbers for suppliers who are located in the same city as supplier S1. Do not include S1 in the answer.
+s4
+
+14. Print part numbers for all parts shipped by more than one supplier.  You may use a count on this one.
+p1
+p2
+p3
+p4
+p5
+
+15. Print supplier numbers for suppliers with status value less than the current average status value of all suppliers.
+s1
+s2
+s4
+
+16. Print the total number of suppliers (regardless of whether they are currently shipping any parts)..
+5
+
+17. Print the total number of suppliers currently shipping parts.
+4
+
+18. Print all the shipment information for the shipment(s) with the highest unit cost.
+s1	p5	100	0.010
+s1	p6	100	0.010
+
+19. Print all the shipment information for the shipment(s) with the highest total cost.
+s1	p2	200	0.009
+s1	p4	200	0.009
+s2	p1	300	0.006
+s3	p2	200	0.009
+s4	p4	300	0.006
+
+20. Print all the supplier information for the supplier(s) making the most money.  The supplier money is determined by the sum of all shipment cost.  Each shipment cost is found by the number of units being shipped times the price per unit.
+s1	Smith	20	London
+
+21. For each supplier, print the supplier number and how many different parts shipped.  For example, S1 6; S2 2, ...
+s1	6
+s2	2
+s3	2
+s4	4
+
+
